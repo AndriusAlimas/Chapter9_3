@@ -1,12 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>
+<!-- Only userType of members will see this piece of data:
+id attribute of form used to identify-->
+<form action="commentsProcess.jsp" method="POST" id="form1">
+Add your comments here please: <br>
+<textarea name="input" cols="40" rows="10"></textarea><br>
+</form>
+<!-- submit comments data:-->
+<button type="submit" form="form1" >Submit</button>
